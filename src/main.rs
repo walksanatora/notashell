@@ -75,7 +75,7 @@ fn main() {
 
     let args = Args::parse();
 
-    match args.key {
+/*    match args.key {
         Some(key) => {
             println!("key sent, checking");
             let rk = std::fs::read_to_string(".key");
@@ -93,9 +93,9 @@ fn main() {
                 eprintln!("Invalid key");
             }
         }
-        None => {
+        None => {*/
             println!("loading docker");
             load_docker();
-        }
-    }
+//        }
+//    }
 }
