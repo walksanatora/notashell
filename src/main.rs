@@ -73,7 +73,7 @@ fn load_docker() {
 
 fn main() {
 
-    let args = Args::parse();
+    let _args = Args::parse();
 
 /*    match args.key {
         Some(key) => {
